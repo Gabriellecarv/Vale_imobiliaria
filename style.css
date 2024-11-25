@@ -1,0 +1,14 @@
+main{
+text-align: center;
+}
+
+.borda-logo{
+    background-color: #414b3b   ;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.pagination{
+ justify-content: center;   
+
+}
