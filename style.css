@@ -1,14 +1,30 @@
-main{
-text-align: center;
+main {
+    text-align: center;
+    font-size: 25pt;
+}
+footer {
+ text-align: center; 
+ background-color: #414b3b; 
+ color:white; 
+ font-size: 5pt;
 }
 
-.borda-logo{
-    background-color: #414b3b   ;
+.borda-logo {
+    background-color: #414b3b;
     justify-content: center;
     display: flex;
     align-items: center;
 }
-.pagination{
- justify-content: center;   
 
+.pagination {
+    justify-content: center;
+}
+
+.card {
+    font-size: 12pt;
+}
+
+.carousel-inner {
+    height: 250px;
+    width: auto;
 }
