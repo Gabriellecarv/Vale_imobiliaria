@@ -2,11 +2,12 @@ main {
     text-align: center;
     font-size: 25pt;
 }
+
 footer {
- text-align: center; 
- background-color: #414b3b; 
- color:white; 
- font-size: 5pt;
+    text-align: center;
+    background-color: #414b3b;
+    color: white;
+    font-size: 5pt;
 }
 
 .borda-logo {
@@ -14,6 +15,7 @@ footer {
     justify-content: center;
     display: flex;
     align-items: center;
+
 }
 
 .pagination {
@@ -27,4 +29,24 @@ footer {
 .carousel-inner {
     height: 250px;
     width: auto;
+}
+
+/* Center the navbar items */
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.nav-item {
+    font-size: 18px;
+}
+
+.message-box {
+    border: 1px solid #414b3b;
+    padding: 15px;
+    background-color: #f8f9fa;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    font-size: 20pt;
 }
